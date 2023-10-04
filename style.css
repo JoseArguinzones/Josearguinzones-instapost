@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+.post{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+    margin-right: 37%;
+    font-family: 'Roboto', sans-serif;
+
+
+    
+}
+strong{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+
+.post-header{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+
+}
+.logo{
+    margin-right: 20px;
+}
+
+.post-title{
+    margin-right: 350px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+h2{
+    font-size: large;
+}
+.post-title p{
+    margin-top: -17px;
+
+}
+img{
+    width: 510px;
+    height: 455px;
+}
+.post-body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.post-icons{
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.post-icons div{
+    margin-left: 8px;
+}
+.icon3{
+    margin-right: 320px;
+}
+
+
+
+
+
+
