@@ -5,11 +5,12 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    margin-left: 38%;
-    margin-right: 37%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto', sans-serif;
+    width:fit-content;
 
 
     
@@ -40,6 +41,7 @@ strong{
 }
 h2{
     font-size: large;
+
 }
 .post-title p{
     margin-top: -17px;
@@ -52,13 +54,14 @@ img{
 .post-body{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    margin-bottom: 30px;
+    
 }
 .post-icons{
     margin-top: 15px;
     display: flex;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto
 }
 .post-icons div{
     margin-left: 8px;
@@ -66,9 +69,13 @@ img{
 .icon3{
     margin-right: 320px;
 }
+.paragraph{
 
+    margin: auto auto;
+    width: 510px;
+}
+.paragraph2{
+    margin: auto auto;
+    width: 510px;
 
-
-
-
-
+}
